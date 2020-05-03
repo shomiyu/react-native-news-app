@@ -5,7 +5,7 @@ import ListItem from './components/ListItem'
 export default function App() {
   return (
     <View style={styles.container}>
-      <ListItem />
+      <ListItem title="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." imageUrl="https://picsum.photos/200/300" auther="SampleNews" />
     </View>
   );
 }
@@ -17,26 +17,4 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-  itemContainer: {
-    height: 100,
-    width: '100%',
-    borderColor: 'gray',
-    borderWidth: 1,
-    flexDirection: 'row',
-  },
-  leftContainer: {
-    width: 100,
-  },
-  rightContainer: {
-    flex: 1,
-    padding: 10,
-    justifyContent: 'space-between',
-  },
-  text: {
-    fontSize: 16,
-  },
-  subText: {
-    fontSize: 12,
-    color: 'gray'
-  }
 });
