@@ -22,7 +22,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": false,
+      "bundleIdentifier": "com.zelohas.news-app"
     },
     "extra": {
       "newsApiKey": "8b92685d49f941a5b2061ebfdfcd5250"
